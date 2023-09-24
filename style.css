@@ -1,0 +1,33 @@
+#game-container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border: 1px solid rgb(4, 94, 91);
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #2f86d1a3;
+  box-shadow: 7px 8px 17px #2a6fc4;
+}
+
+#target {
+  width: 50px;
+  height: 50px;
+  background-color: #f14275;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+h1,
+p {
+  text-align: center;
+}
+h1{
+  color: #f14275;
+  padding-top: 20px;
+}
+
+body {
+  background-color: #36555982;
+}
